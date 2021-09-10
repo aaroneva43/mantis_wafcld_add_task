@@ -42,15 +42,15 @@ console.info(`
 Paste the following command in your browser console and make changes, then press ENTER
 --------------------------------------------------------------------------------------
 
-task({
-   // this is teams link 
-   href: 'https://teams.microsoft.com/l/entity/some',
-   // title
+%c task({
+   
+   href: 'https://teams.microsoft.com/l/entity/some', /* this is teams link*/
+   
    summary: 'Some title'
 })
 
---------------------------------------------------------------------------------------
-`);
+
+`, 'color: #0f0;');
 
 // task({
 //    href: 'https://teams.microsoft.com/l/entity/com.microsoft.teamspace.tab.planner/_djb2_msteams_prefix_823506895?webUrl=https%3a%2f%2ftasks.office.com%2f2c36c478-3d00-452f-8535-48396f5f01f0%2fHome%2fPlanViews%2f7lZNTDj5qkirMY2eGH3gTGUAB3Rh%3fType%3dPlanLink%26Channel%3dTeamsTab&label=UI+improvement+for+FortiWeb+Cloud+in+Tasks&context=%7b%0d%0a++%22subEntityId%22%3a+%22J_y6Y77RZEO2LOAi0bFo9GUAB0Ni%22%2c%0d%0a++%22channelId%22%3a+%2219%3a29a837ad8b444795b42f6e789d815277%40thread.tacv2%22%0d%0a%7d&tenantId=2c36c478-3d00-452f-8535-48396f5f01f0',
